@@ -84,7 +84,7 @@ body{
 	}
 	&__stars {
 	padding: 0;
-	margin: 20px auto 0 auto;
+	margin: 20px 20px 0 auto;
 	display: inline-block;
 	}
 	&__star {
@@ -169,4 +169,29 @@ body{
 			color: #13e28d;
 		}
 	}
+	&__wrap-titles {
+		width: 70%;
+		display: inline-block;
+	}
+	&__wrap-prog {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		position: relative;
+	}
+	&__wrap-top {
+		width: 100%;
+	}
+}
+#progress {
+	transform-origin: 35px 35px;
+	transform: rotate(-90deg);
+	transition: all 1.2s linear;
+}
+#percent {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	color: #8a8e9f;
 }
